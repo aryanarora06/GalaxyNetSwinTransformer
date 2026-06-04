@@ -90,7 +90,7 @@ Use 7-Zip or another compression utility.
 4. Upload `train_ddp.py` and run:
 
 ```bash
-python train_ddp.py
+!python train_ddp.py
 ```
 
 Training runs for up to 60 epochs with early stopping (patience 16). The best checkpoint is saved to `best_galaxy_swint.pth` in the notebook's working directory. Final test accuracy (with and without TTA) is printed at the end by rank-0.
